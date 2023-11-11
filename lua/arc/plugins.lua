@@ -24,6 +24,9 @@ packer.startup(function(use)
     use {'hrsh7th/nvim-cmp', branch = 'main'}
     use 'ray-x/lsp_signature.nvim'
 
+    -- Multi Cursors
+    use {'mg979/vim-visual-multi', branch = 'master'}
+
     -- Only because nvim-cmp _requires_ snippets
     use {'hrsh7th/cmp-vsnip', branch = 'main'}
     use 'hrsh7th/vim-vsnip'
@@ -67,4 +70,22 @@ packer.startup(function(use)
     use('nvim-lua/plenary.nvim')
     use('ThePrimeagen/harpoon')
 
+    -- Ayu Themes
+    use('Shatur/neovim-ayu')
+
+    -- Catppuccin Theme
+    use { "catppuccin/nvim", as = "catppuccin" }
+
+    -- Rose Pine theme
+    use "rose-pine/neovim"
+
+    -- Go setup
+    use 'ray-x/go.nvim'
+    use 'ray-x/guihua.lua'
+
+    -- Debugger
+    use "mfussenegger/nvim-dap"
+
+    -- Go snippets
+    use("olexsmir/gopher.nvim")
 end)

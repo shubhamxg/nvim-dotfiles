@@ -2,7 +2,7 @@
 vim.o.autoindent = true
 vim.o.timeoutlen = 300
 vim.o.encoding = "utf-8"
-vim.o.scrolloff = 2
+vim.o.scrolloff = 10
 vim.o.showmode = false
 vim.o.hidden = true
 vim.o.wrap = false
@@ -99,3 +99,4 @@ vim.cmd 'set shortmess+=c'  -- don't give |ins-completion-menu| messages.
 vim.cmd 'au TextYankPost * silent! lua vim.highlight.on_yank {higroup="IncSearch", timeout=150}'
 
 vim.wo.cursorcolumn = false
+
