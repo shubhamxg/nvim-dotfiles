@@ -88,4 +88,10 @@ packer.startup(function(use)
 
     -- Go snippets
     use("olexsmir/gopher.nvim")
+
+    -- Nvim tree
+    use("nvim-tree/nvim-tree.lua")
+
+    -- Webdev icons
+    use 'nvim-tree/nvim-web-devicons'
 end)

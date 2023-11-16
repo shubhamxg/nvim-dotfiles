@@ -24,6 +24,9 @@ null_ls.setup {
         null_ls.builtins.formatting.gofumpt,
         null_ls.builtins.formatting.goimports_reviser,
         null_ls.builtins.formatting.golines,
+
+        -- Rust formatting
+        null_ls.builtins.formatting.rustfmt,
         
     },
     on_attach = function(client, bufnr)

@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/base16-vim",
     url = "https://github.com/chriskempson/base16-vim"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -104,10 +109,25 @@ _G.packer_plugins = {
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/editorconfig-vim",
     url = "https://github.com/editorconfig/editorconfig-vim"
   },
+  ["go.nvim"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
+  },
+  ["gopher.nvim"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/gopher.nvim",
+    url = "https://github.com/olexsmir/gopher.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
+  },
+  ["guihua.lua"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   harpoon = {
     loaded = true,
@@ -139,6 +159,11 @@ _G.packer_plugins = {
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  neovim = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/neovim",
+    url = "https://github.com/rose-pine/neovim"
+  },
   ["neovim-ayu"] = {
     loaded = true,
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/neovim-ayu",
@@ -159,10 +184,25 @@ _G.packer_plugins = {
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-comment"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/nvim-comment",
+    url = "https://github.com/terrortylor/nvim-comment"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -208,6 +248,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/pure/.local/share/nvim/site/pack/packer/start/vim-sneak",
     url = "https://github.com/justinmk/vim-sneak"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/home/pure/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   },
   ["vim-vsnip"] = {
     loaded = true,
