@@ -65,3 +65,11 @@ vim.api.nvim_set_keymap('n', '<C-p>', '"+gP', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('x', '<C-y>', '"+y', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('x', '<C-p>', '"+gP', { noremap = true, silent = true })
 
+-- Inlayhints Toogle
+vim.keymap.set("n", "<leader>pr", "<cmd>RustEnableInlayHints<CR>")
+vim.keymap.set("n", "<leader>pt", "<cmd>RustDisableInlayHints<CR>")
+
+-- <><><>
+
+vim.keymap.set("n", "<leader>s", "<cmd>so<CR>")
+vim.keymap.set("n", "<leader>q", "<cmd>q<CR>")

@@ -94,4 +94,9 @@ packer.startup(function(use)
 
     -- Webdev icons
     use 'nvim-tree/nvim-web-devicons'
+
+    -- Inlay hints
+    -- use 'simrat39/inlay-hints.nvim'
+    use 'simrat39/rust-tools.nvim'
+    use('lvimuser/lsp-inlayhints.nvim')
 end)
