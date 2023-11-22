@@ -17,8 +17,8 @@ ts.setup {
     "typescript",
     "toml",
     "json",
-    "css",
-    "html",
+    -- "css",
+    -- "html",
     "lua"
   },
   autotag = {

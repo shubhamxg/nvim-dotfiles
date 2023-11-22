@@ -99,4 +99,18 @@ packer.startup(function(use)
     -- use 'simrat39/inlay-hints.nvim'
     use 'simrat39/rust-tools.nvim'
     use('lvimuser/lsp-inlayhints.nvim')
+
+    -- Dracula Theme
+    use{"dracula/vim", as = "dracula"}
+
+    -- vim tmux navigator
+    use('christoomey/vim-tmux-navigator')
+
+    -- Css color
+    use {
+        'rrethy/vim-hexokinase',
+        run = 'make hexokinase'
+    }
+
+
 end)
